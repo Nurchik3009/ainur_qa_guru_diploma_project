@@ -41,8 +41,10 @@ public class TestBase {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 
-        if (config.isRemote()) {
-            Configuration.remote = config.remoteUrl();
+        // Исправление: проверяем и remoteUrl, и флаг isRemote
+        String remoteUrl = System.getProperty("remoteUrl", config.remoteUrl());
+        if (remoteUrl != null && !remoteUrl.isEmpty()) {
+            Configuration.remote = remoteUrl;
 
             Map<String, Object> selenoidOptions = new HashMap<>();
             selenoidOptions.put("enableVNC", true);
@@ -73,7 +75,7 @@ public class TestBase {
                 Attach.addVideo();
             }
         } catch (Exception e) {
-            
+
         } finally {
             Selenide.closeWebDriver();
         }

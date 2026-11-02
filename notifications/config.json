@@ -1,9 +1,9 @@
 {
   "base": {
     "project": "Ainur Diploma Project — SauceDemo UI Tests",
-    "environment": "Prod",
+    "environment": "Production",
     "comment": "Дипломный проект QA.GURU | @AKaliakbarova",
-    "reportLink": "${BUILD_URL}allure",
+    "reportLink": "${BUILD_URL}",
     "language": "ru",
     "allureFolder": "allure-report/",
     "enableChart": true

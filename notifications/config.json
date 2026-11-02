@@ -3,7 +3,7 @@
     "project": "Ainur Diploma Project — SauceDemo UI Tests",
     "environment": "Production",
     "comment": "Дипломный проект QA.GURU | @AKaliakbarova",
-    "reportLink": "https://jenkins.qa.guru/job/ainur_diplom/",
+    "reportLink": "${BUILD_URL}",
     "language": "ru",
     "allureFolder": "allure-report/",
     "enableChart": true

@@ -11,11 +11,11 @@
   "telegram": {
     "token": "9108246431:AAGzPgb91ZUV0g9rqrt3EXwXxvGhrAXOtgA",
     "chat": "848405839",
-    "replyTo": "",
-    "proxy": {
-      "host": "proxy.qa.guru",
-      "port": 3128,
-      "type": "HTTP"
-    }
+    "replyTo": ""
+  },
+  "proxy": {
+    "host": "proxy.qa.guru",
+    "port": 3128,
+    "type": "HTTP"
   }
 }

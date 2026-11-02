@@ -14,8 +14,8 @@
     "replyTo": ""
   },
   "proxy": {
-    "host": "proxy.qa.guru",
-    "port": 3128,
-    "type": "HTTP"
+    "type": "socks5",
+    "host": "proxy.qaguru.school",
+    "port": 7777
   }
 }

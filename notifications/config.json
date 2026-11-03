@@ -11,7 +11,8 @@
   "telegram": {
     "token": "9108246431:AAGzPgb91ZUV0g9rqrt3EXwXxvGhrAXOtgA",
     "chat": "848405839",
-    "replyTo": ""
+    "replyTo": "",
+    "templatePath": "notifications/telegram.ftl"
   },
   "proxy": {
     "type": "socks5",

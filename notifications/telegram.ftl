@@ -1,4 +1,4 @@
-<b>${project}</b>
+<b>Ainur Diploma Project — SauceDemo UI Tests</b>
 
 <b>Результаты:</b>
 Рабочее окружение: ${environment}

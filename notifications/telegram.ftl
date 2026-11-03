@@ -5,6 +5,6 @@
 Комментарий: <a href="https://github.com/Nurchik3009/ainur_qa_guru_diploma_project">Дипломный проект QA GURU</a> | @AKaliakbarova
 Продолжительность: ${time}
 Всего сценариев: ${statistic.total}
-Всего успешных тестов: ${statistic.passed} (${statistic.passedPercentage} %)
+Всего успешных тестов: ${statistic.passed}
 
 <a href="${reportLink}">Отчет доступен по ссылке</a>

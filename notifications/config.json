@@ -2,7 +2,7 @@
   "base": {
     "project": "Ainur Diploma Project — SauceDemo UI Tests",
     "environment": "Production",
-    "comment": "Дипломный проект QA GURU | https://github.com/Nurchik3009/ainur_qa_guru_diploma_project | @AKaliakbarova",
+    "comment": "Дипломный проект QA GURU | @AKaliakbarova",
     "reportLink": "${BUILD_URL}",
     "language": "ru",
     "allureFolder": "allure-report/",
@@ -11,7 +11,8 @@
   "telegram": {
     "token": "9108246431:AAGzPgb91ZUV0g9rqrt3EXwXxvGhrAXOtgA",
     "chat": "848405839",
-    "replyTo": ""
+    "replyTo": "",
+    "templatePath": "notifications/telegram.ftl"
   },
   "proxy": {
     "type": "socks5",

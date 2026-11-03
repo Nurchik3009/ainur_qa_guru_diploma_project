@@ -2,7 +2,7 @@
   "base": {
     "project": "Ainur Diploma Project — SauceDemo UI Tests",
     "environment": "Production",
-    "comment": "Дипломный проект QA GURU | <a href=\"https://github.com/Nurchik3009/ainur_qa_guru_diploma_project\">GitHub Repo</a> | @AKaliakbarova",
+    "comment": "Дипломный проект <a href=\"https://github.com/Nurchik3009/ainur_qa_guru_diploma_project\">QA GURU</a> | @AKaliakbarova",
     "reportLink": "${BUILD_URL}",
     "language": "ru",
     "allureFolder": "allure-report/",
